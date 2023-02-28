@@ -17,7 +17,6 @@ steps:
       projects: ./MusicStore/MusicStore.csproj
   - task: Npm@1
     inputs:
-      command: 'install'
-      publishEndpoint: "string"   
+      command: 'install'   
       workingDir: /home/ubuntu/myagent/_work/node_modules/vso-task-lib
  
