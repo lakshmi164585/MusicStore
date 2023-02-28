@@ -10,6 +10,6 @@ steps:
       command: 'restore'
       feedsToUse: 'select'
       feedRestore: 'projectName/feedName'
-      projects:  ./MusicStore/MusicStore.csproj
+      projects: ./MusicStore/MusicStore.csproj
       includeNuGetOrg: true 
 
