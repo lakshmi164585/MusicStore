@@ -11,4 +11,8 @@ steps:
       feedRestore: 'projectName/feedName'
       projects: ./MusicStore/MusicStore.csproj
       includeNuGetOrg: true 
+  - task: DotNetCoreCLI@2
+    inputs:
+      command: 'build'
+      projects: ./MusicStore/MusicStore.csproj    
 
