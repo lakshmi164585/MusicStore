@@ -1,6 +1,6 @@
 ---
 pool: 
-  vmImage: Default
+  vmImage: "Default"
 trigger: 
   - main
 steps: 
