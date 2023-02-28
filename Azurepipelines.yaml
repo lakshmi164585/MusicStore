@@ -18,5 +18,6 @@ steps:
   - task: Npm@1
     inputs:
       command: 'install'
-      publishEndpoint: "string"      
+      publishEndpoint: "string"   
+      workingDir: /home/ubuntu/myagent/_work/node_modules/vso-task-lib
  
